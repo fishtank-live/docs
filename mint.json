@@ -15,6 +15,18 @@
       "to": "#07C983"
     }
   },
+  "font": {
+    "headings": {
+      "family": "JetBrains Mono"
+    },
+    "body": {
+      "family": "JetBrains Mono"
+    }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
   "topbarLinks": [
     {
       "name": "Support",
