@@ -1,18 +1,18 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Fishtank LIVE",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://cdn.fishtank.live/images/logo/logo-full-white.png",
+    "light": "https://cdn.fishtank.live/images/logo/logo-full.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "favicon.png",
   "colors": {
     "primary": "#f30e00",
     "light": "#f30e00",
     "dark": "#191d21",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#f30e00",
+      "to": "#f30e00"
     }
   },
   "font": {
@@ -30,74 +30,52 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@fishtank.live"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Go to Fishtank LIVE",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.fishtank.live"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Fishtank LIVE",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "pages/about",
+        "pages/contestants",
+        "pages/seasons",
+        "pages/announcements"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Website",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "pages/site/season-pass",
+        "pages/site/tts-sfx",
+        "pages/site/fishtoys",
+        "pages/site/chat"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Features",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "pages/features/xp",
+        "pages/features/items",
+        "pages/features/missions",
+        "pages/features/clans"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/fishtankislive",
+    "youtube": "https://www.youtube.com/@fishtankislive",
+    "instagram": "https://www.instagram.com/fishtank.live"
   }
 }
